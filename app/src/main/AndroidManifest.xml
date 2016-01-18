@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.pragyan.pragyantshirtapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.pragyan.pragyantshirtapp.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.pragyan.pragyantshirtapp.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="org.pragyan.pragyantshirtapp.Coupon"
+            android:label="@string/title_activity_coupon"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="org.pragyan.pragyantshirtapp.WelcomePage"
+            android:label="@string/title_activity_welcome_page"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="org.pragyan.pragyantshirtapp.ConfirmPage"
+            android:label="@string/title_activity_confirm_page"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

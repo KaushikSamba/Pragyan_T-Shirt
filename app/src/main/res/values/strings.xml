@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pragyan App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_coupon">Coupon</string>
+    <string name="title_activity_welcome_page">Your Profile</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_confirm_page">Confirmation</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_nived">nived</string>
+    <string name="title_activity_kjasfsa">kjasfsa</string>
+    <string name="Love"><![CDATA[Made with <3 by Delta Force]]></string>
+</resources>

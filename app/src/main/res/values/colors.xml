@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <color name = "festember_orange">#c7ff6600</color>
+    <color name = "festember_orange_deep">#ffff4400</color>
+    <color name="Transparent80">#80000000</color>
+-->
+    <color name="ColorPrimary">#72BAAC</color>
+    <color name="ColorPrimaryDark">#000000</color>
+
+    <color name="pragyan_gold"> #CDB45B</color>
+    <color name="pragyan_grey">#A9AAAE</color>
+    <color name="pragyan_dark_grey">#4C4D51</color>
+    <color name="button_green">#72BAAC</color>
+    <color name="white">#F8F8F8</color>
+
+</resources>

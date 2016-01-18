@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="org.pragyan.pragyantshirtapp.SizeSelectFragment"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        >
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:text="S"
+            android:layout_weight="1"
+            android:id="@+id/SizeS"
+            android:background="@drawable/button_style"
+            android:textColor="@color/pragyan_dark_grey"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:text="M"
+            android:layout_weight="1"
+            android:id="@+id/SizeM"
+            android:background="@drawable/button_style"
+            android:textColor="@color/pragyan_dark_grey"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:text="L"
+            android:layout_weight="1"
+            android:id="@+id/SizeL"
+            android:background="@drawable/button_style"
+            android:textColor="@color/pragyan_dark_grey"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginBottom="30dp"
+        >
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:text="XL"
+            android:layout_weight="1"
+            android:background="@drawable/button_style"
+            android:textColor="@color/pragyan_dark_grey"
+            android:id="@+id/SizeXL"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:text="XXL"
+            android:background="@drawable/button_style"
+            android:textColor="@color/pragyan_dark_grey"
+            android:layout_weight="1"
+            android:id="@+id/SizeXXL"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pragyan_dark_grey"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/festemberLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:padding="16dp"
+        android:background="@color/pragyan_dark_grey"
+        android:src="@drawable/logo_app" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/rollNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Roll number"
+            android:textColorHint="@color/pragyan_grey"
+            android:textColor="@color/pragyan_grey"
+
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@nitt.edu"
+            android:textColorHint="@color/pragyan_grey"
+            android:textColor="@color/pragyan_grey"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Webmail password"
+            android:textColorHint="@color/pragyan_grey"
+            android:textColor="@color/pragyan_grey"
+
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/showPasswordCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:textColorHint="@color/pragyan_grey"
+            android:textColor="@color/pragyan_grey"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:alpha="80"
+        android:background="@drawable/button_style"
+        android:text="Sign in"
+        android:textColor="@color/pragyan_dark_grey"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/pragyan_grey"
+        android:text="@string/Love" />
+
+</LinearLayout>
